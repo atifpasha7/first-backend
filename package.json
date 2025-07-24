@@ -2,10 +2,15 @@
   "name": "backend2",
   "version": "1.0.0",
   "description": "this is for learning backend",
+  "type": "module",
   "main": "server.js",
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "atif",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
