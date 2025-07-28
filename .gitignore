@@ -1,5 +1,6 @@
 .env
 node_modules/
+constants.js
 
 # Node.js
 node_modules/
