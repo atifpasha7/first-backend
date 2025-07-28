@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "this is for learning backend",
   "type": "module",
-  "main": "server.js",
-  
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "author": "atif",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.16.4",
+    "prettier": "^3.6.2"
   }
 }
