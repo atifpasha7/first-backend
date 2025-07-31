@@ -12,7 +12,7 @@ app.use(cors(
 ));
 
 app.get('/', (req, res) => {
-  res.send('🚀 Server is running successfully!');
+  res.send(' Server is running successfully!');
 });
 
 app.use(express.json({
