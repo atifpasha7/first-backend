@@ -9,6 +9,8 @@ const storage=multer.diskStorage({
    }
 })
 
-export const upload = multer({
-  storage: storage,
-}).single('file'); // 'file' is the name of the file input field in the form
+ const upload = multer({
+  storage,
+}) // 'file' is the name of the file input field in the form
+
+export { upload };
